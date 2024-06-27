@@ -36,7 +36,7 @@ const MobileNav = () => {
         </SheetTrigger>
         <SheetContent classNameflex flex-col>
             {/* logo */}
-            <div className='mt-32 mb-40 text-center text-2xl'>
+            <div className='mt-12 mb-10 text-center text-2xl'>
                 <Link href="/">
                 <h1 className="text-4xl font-semibold">
                     Osman <span className="text-accent">Goni</span>
@@ -44,7 +44,7 @@ const MobileNav = () => {
                 </Link>
             </div>
             {/* nav */}
-            <nav className='flex flex-col justify-center items-center gap-8'>
+            <nav className='flex flex-col justify-center items-center gap-4'>
                 {
                     links.map((link, index) => {
                         return <Link href={link.path} key={index} className={`${link.path === pathname && "text-accent border-b-2 border-accent"} text-xl capitalize hover:text-accent transition-all`}>{link.name}</Link>

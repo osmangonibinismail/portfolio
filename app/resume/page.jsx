@@ -7,7 +7,7 @@ import {
 // about data
 const about = {
   title: "About me",
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, excepturi!",
+  description: "I am a passionate and dedicated junior front-end developer with a solid educational foundation in computer science, currently pursuing a degree while actively building my skills through hands-on projects and internships.",
   info: [
     {
       fieldName: "Name",
@@ -47,71 +47,46 @@ const about = {
 const experience = {
   icon: "/osman.png",
   title: "My Experience",
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, excepturi!",
+  description: "My extensive experience in web development has equipped me with a deep understanding of front-end technologies such as HTML, CSS, and JavaScript, as well as proficiency in frameworks like React and Angular.",
   items: [
     {
-      company: "Tech Solution Inc.",
-      position: "Full-stack developer",
-      duration: "May-2024 to Present"
-    },
-    {
-      company: "Web design studio",
-      position: "Full-stack developer",
-      duration: "May-2024 to Present"
-    },
-    {
-      company: "Tech Solution",
-      position: "Full-stack developer",
-      duration: "May-2024 to Present"
-    },
-    {
-      company: "Tech Academy",
-      position: "Full-stack developer",
-      duration: "May-2024 to Present"
-    },
-    {
-      company: "Tech Academy",
-      position: "Full-stack developer",
-      duration: "May-2024 to Present"
-    },
+      company: "Programming hero",
+      position: "learning course",
+      duration: "January-2024 to Present"
+    }
   ]
 }
 // education data
 const education = {
   icon: "/osman.png",
   title: "Education",
-  description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, excepturi!",
+  description: "My educational background in Computer Science has provided me with a strong foundation in programming, algorithms, and software development principles. Throughout my academic journey, I have engaged in various projects and internships that have enhanced my practical skills and prepared me for real-world challenges.",
   items: [
     {
-      institution: "Programming hero",
-      degree: "Full-stack Web development",
-      duration: "January-2024 to Present"
+      institution: "International Islamic University Chittagong",
+      degree: "Computer Science and Engineering",
+      duration: "April-2024 to Present"
     },
     {
       institution: "Programming hero",
-      degree: "Full-stack Web development",
+      degree: "Complete Web development",
       duration: "January-2024 to Present"
     },
     {
-      institution: "Programming hero",
-      degree: "Full-stack Web development",
-      duration: "January-2024 to Present"
+      institution: "South Asian College Chittagong",
+      degree: "Science",
+      duration: "November-2021 to February-2023"
     },
     {
-      institution: "Programming hero",
-      degree: "Full-stack Web development",
-      duration: "January-2024 to Present"
+      institution: "Bailchari Nazmunnecha High school",
+      degree: "Science",
+      duration: "January-2015 to April-2020"
     },
     {
-      institution: "Programming hero",
-      degree: "Full-stack Web development",
-      duration: "January-2024 to Present"
-    },
-    {
-      institution: "Programming hero",
-      degree: "Full-stack Web development",
-      duration: "January-2024 to Present"
-    },
+      institution: "Banskhali Rahima Academy",
+      degree: "Primary label",
+      duration: "January-2009 to December-2014"
+    }
 
   ]
 }
