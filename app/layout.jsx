@@ -5,6 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import Footer from "@/components/Footer";
 // import Work from "./work/page";
 // import Services from "./services/page";
 // import Resume from "./resume/page";
@@ -30,6 +31,9 @@ export default function RootLayout({ children }) {
         <PageTransition>
           {children}
         </PageTransition>
+        <div className="border-t border-white/5">
+        <Footer />
+        </div>
         {/* <div className="mt-10 mb-10">
         <Services></Services>
         </div>
